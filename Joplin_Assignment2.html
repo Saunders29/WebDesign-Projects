@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--Saunders Joplin-->
+	<html lang="en">
+		<head>
+				<meta charset="utf-8">
+				<title>Assignment2</title>
+					<style>
+					body{background: -webkit-linear-gradient(left , grey 50%, white);
+							font-size: 14pt;}
+					</style>
+		</Head>		
+					<Body>		
+						<p>
+						<H1>Java Gui Database</H1>
+						The java side of the project is defiantly where I’ve spent a bulk of my time. The first step was to connect my program to my database that was hard because I had to create a connection object in java which I had to find the one that worked with MySQL. 
+						Then I also had to go through MySQL’s website to find a driver that went into the class path of my java project to be able to connect to the local server on MySQL.
+						<strong> Then I started the implementation of my stored procedures that I created.</Strong>
+						I created a method for each stored procedure so that I could just call that method and use that function. 
+						The implementation was difficult because I was using code written in a different language inside code written in java. 
+						I started testing/debugging by printing the results on console window to help me know that they work before turning it into a JavaFx app. 
+						</p>
+						<h2>Java Errors</h2>
+						<p>
+						<ul>
+							<li>Once I got all my methods working on the console I then went back and stated creating the GUI part, </li>
+							<li>so I created another class that had my scene and I wrote a method that attached each method to its own button. </li>
+							<Li>Then went back to each method and actually started creating a grid pane for each method that would display the function as its own screen. </li>
+						</ul>
+						<em>The ones that just displayed a read statement were simple, so I did those first.</em>
+						I then had to figure out how to display multiple rows and columns that aligned with each other and again I tried to make it too difficult using multiple for loops in side of a while loop, then realized I just needed a counter and that solved that. 
+						The next was a much bigger challenge and that was reading from the text field assigning them to variable to then being passed back as the data used for the parameter in the stored procedures. 
+						I was able to solve that back creating a submit button because the program was running before the variables were actually set so it was getting null values in spots they weren’t allowed. 
+						Last function was a mix of the two update statements these had to read from the database and override the data in that column and then update to the new data. 
+						<em>I wanted to be able to fill the text field with the data that was currently in those rows but I was unable to figure that out,</em>
+						so I just had it so you had to insert what ever numbers you wanted in the text field and that would update what was in those rows.
+						I created a back button that took you back to the home screen to be able to perform another task if wanted.
+						I was able to get it to work but I felt like I could have created a cleaner code for it.
+						I created a new grid pane inside of each button to work around the duplicate child error that I was having. 
+						<strong>Which did work I just felt that was a better way of going about it.</strong>
+						</p>	
+					</Body>
+
+	</html>				
