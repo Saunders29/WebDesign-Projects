@@ -2,6 +2,12 @@
 			table, th, td {
 				border: 1px solid Black;
 			}
+			th{
+				valign: top;
+			}
+			tr{
+				valign: bottom;
+			}
 			caption { 
 				font-size: 3em;
 			}
