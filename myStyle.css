@@ -18,7 +18,8 @@
 			}
 			body{
 				background: -webkit-linear-gradient(left , grey 50%, white);
-				margin: 10%;
+				margin-left: 5%;
+				margin-right:5%;
 			}
 			
 			h1 {  
