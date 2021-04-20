@@ -1,6 +1,6 @@
 	
 			table, th, td{
-				border: 1px blue;
+				border: 1px solid Black;
 			}
 			p{ 
 				color: red;
@@ -18,7 +18,7 @@
 				font-size: 150%;
 			}	
 				
-			img#"scaryPhoto.jfif"{
+			img#scaryPic{
 				width= "1080";
 				height= "748";
 			}
