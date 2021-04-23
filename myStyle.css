@@ -7,7 +7,7 @@
 			}
 			a  {
 				border: solid cyan;
-				padding: 1em;
+				padding: .5em;
 				display: flex;
 				width: fit-content;
 			}
