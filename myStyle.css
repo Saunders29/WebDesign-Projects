@@ -46,22 +46,25 @@
 				padding: .5em;
 				justify-content: space-around;
 				align-items: center;
+				width:  fit-content;
+				float: center;
 			}
 			div.pictureBlock{
 				font-size: 2em;
-				text-align: center ;
 				border: dotted black;
 				height: 50%;
-				width: calc(30%);
+				width:  fit-content;
 				font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 				padding: .5em;
 				border: 3px solid black;
 				background-color: cornflowerblue;
 				align-items: center;
+				justify-content: space-evenly;
 			}
 			div.picture{
-				text-align: center;
+				
 				width: fit-content;
+				float: center;
 			}
 			div.label{
 				text-align: center;
