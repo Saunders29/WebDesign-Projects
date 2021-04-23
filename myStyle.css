@@ -7,8 +7,9 @@
 			}
 			a  {
 				border: solid cyan;
-				padding: .5em;
-				margin: 1em;
+				padding: 1em;
+				display: flex;
+				width: fit-content;
 			}
 		
 			caption { 
@@ -35,9 +36,9 @@
 				color: brown;
 			}	
 				
-			img#scaryPic {
-				width: 1080px;
-				height: 748px;
+			img#football {
+				width: 600px;
+				height: 450px;
 			}
 			div.pictureBar {
 				display: flex;
