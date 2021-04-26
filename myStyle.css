@@ -54,9 +54,9 @@
 				border: 10px solid blueviolet;
 				padding: .5em;
 				justify-content: space-around;
-				align-items: center;
-				width:  fit-content;
-				float: center;
+				align-items:center;
+				width: 60%;
+				float:inline-start;
 			}
 			div.pictureBlock{
 				font-size: 2em;
@@ -73,7 +73,7 @@
 			div.picture{
 				
 				width: fit-content;
-				float: center;
+				float:inline-start;
 			}
 			div.label{
 				text-align: center;
