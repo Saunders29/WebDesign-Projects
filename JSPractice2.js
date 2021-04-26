@@ -1,8 +1,9 @@
 
 image1 = new Image();
-	image1.src = "baseball.jfif";
-	image2 = new Image();
-	image2.src = "football.jfif";
+image1.src = "baseball.jfif";
+image2 = new Image();
+image2.src = "football.jfif";
+
 
 function mouseOver( e )
 {  
@@ -53,6 +54,19 @@ if (e.target.getAttribute("id")== "header"){
 }
 document.addEventListener( "mouseover", mouseOver, false );
 document.addEventListener( "mouseout", mouseOut, false );
-		
-		
 
+
+theButton = document.getElementById("theButton");
+otherItem = document.getElementById("buttonTest");
+theButton.addEventListener("click", onButtonClick);
+
+    function onButtonClick() {  
+        otherItem.style.color = "red";  
+    }
+		
+textentry = document.getElementById("myInput");  
+textentry.addEventListener("change", onChange);
+    function onChange() {  
+        newtext = myinput.value;  
+        otherItem.innerHTML = newtext;  
+    }
