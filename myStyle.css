@@ -21,12 +21,20 @@
 				
 			}
 			body{
-				background: -webkit-linear-gradient(right , grey 50%, white);
+				background: darkkhaki;
 				margin-left: 5%;
 				margin-right:5%;
 				font-family:'Times New Roman', Times, serif;
 			}
-			
+			header{
+				text-align: center;
+				font-size: 2em;
+				color: darkolivegreen;
+				text-decoration: underline;
+			}
+			footer{
+				text-align:right;
+			}
 			h1 {  
 				color: whitesmoke;
 				text-align: center;  
@@ -81,14 +89,15 @@
 			li{
 				font-size: 1.4em;
 			}
+		
 			td#content1 {
 				font-family: impact;
 			}
 			td#content2 {
 				font-family: Broadway;
 			}
-			th#header {
-				column-span:2;
+			td#header {
 				font-family:monospace;
 				
 			}
+			
