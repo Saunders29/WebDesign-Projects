@@ -2,23 +2,25 @@
 <html>
 	<head>
 			<meta charset="utf-8">
-			<title>java Script </title>
+			<title>Java Script </title>
 			<link rel= "stylesheet" href= "myStyle.css">
-
+			<script src="JSPractice2.js"></script>
 	</head>		
 		<body>
 		
 	<h1><img src= "football.png" id="football" alt="hover pic to change" ></h1>
 	<table id="table">
 	<thead>
-	<th colspan="2"style="font-family: times;"id="header">Hover Change the header</th>
+	<th id= "header">Hover Change the header</th>
 	</thead>
 	
-	<tr><td style ="font-family: impact;"id= "content1">Hover to Change Me 1 </td>
-	<td style="font-family: Broadway;"id=content2>Hover to Change Me 2</td></tr>
+	<tr>
+		<td id= "content1">Hover to Change Me 1 </td>
+		<td id= "content2" >Hover to Change Me 2</td>
+	</tr>
 
 </table>
-	<h1>Java Script Practice </h1><br>
+	<header>Java Script Practice </header><br>
 	<div class = "JSPara">
 		
 		This java script is something that i Messed with to help paractes some new tools weved learned.<br>
@@ -28,63 +30,6 @@
 <a href ="https://saunders29.github.io/WebDesign-Projects/Joplin_Assignment2.html" id= "Homepage">
 	Return Back to learn about my Database</a>
 </body>
-	<script>
-	image1 = new Image();
-	image1.src = "baseball.jfif";
-	image2 = new Image();
-	image2.src = "football.jfif";
 
-function mouseOver( e )
-{  
-  
-   	if ( e.target.getAttribute( "id" ) == "football" )
-   	{
-		e.target.setAttribute( "src", image1.getAttribute( "src" ) );
-   	} 
-	if (e.target.getAttribute("id")== "header"){
-		document.getElementById("header").style.backgroundColor="pink";
-		document.getElementById("header").style.color="green";
-		document.getElementById("header").style.fontFamily="Verdana";
-	}
-	if (e.target.getAttribute("id")== "content1"){
-		document.getElementById("content1").style.backgroundColor="blue";
-		document.getElementById("content1").style.fontFamily="Verdana";
-		document.getElementById("content1").style.color="white";
-	}
-	if (e.target.getAttribute("id")== "content2"){
-		document.getElementById("content2").style.backgroundColor="red";
-		document.getElementById("content2").style.fontFamily="Tahoma";
-		document.getElementById("content2").style.color="yellow";
-	}   
-  
-} 
-function mouseOut( e )
-{
-   
-   if ( e.target.getAttribute( "id" ) == "football" )
-   {
-      e.target.setAttribute( "src", image2.getAttribute( "src" ) );
-   } 
-if (e.target.getAttribute("id")== "header"){
-	document.getElementById("header").style.backgroundColor="white";
-	document.getElementById("header").style.color="black";
-	document.getElementById("header").style.fontFamily="Times";
-	}
-	 if (e.target.getAttribute("id")== "content1"){
-	document.getElementById("content1").style.backgroundColor="white";
-	document.getElementById("content1").style.fontFamily="impact";
-	document.getElementById("content1").style.color="black";
-	}
-	 if (e.target.getAttribute("id")== "content2"){
-	document.getElementById("content2").style.backgroundColor="white";
-	document.getElementById("content2").style.fontFamily="broadway";
-	document.getElementById("content2").style.color="black";
-	}   
-}
-document.addEventListener( "mouseover", mouseOver, false );
-document.addEventListener( "mouseout", mouseOut, false );
-		
-		
-	</script>
-
+	
 </html>

@@ -81,3 +81,14 @@
 			li{
 				font-size: 1.4em;
 			}
+			td#content1 {
+				font-family: impact;
+			}
+			td#content2 {
+				font-family: Broadway;
+			}
+			th#header {
+				column-span:2;
+				font-family:monospace;
+				
+			}
