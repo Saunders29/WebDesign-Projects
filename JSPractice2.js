@@ -58,6 +58,7 @@ document.addEventListener( "mouseout", mouseOut, false );
 
 theButton = document.getElementById("theButton");
 otherItem = document.getElementById("buttonTest");
+
 theButton.addEventListener("click", onButtonClick);
 
     function onButtonClick() {  
@@ -67,6 +68,6 @@ theButton.addEventListener("click", onButtonClick);
 textentry = document.getElementById("myInput");  
 textentry.addEventListener("change", onChange);
     function onChange() {  
-        newtext = myinput.value;  
+        newtext = myInput.value;  
         otherItem.innerHTML = newtext;  
     }
