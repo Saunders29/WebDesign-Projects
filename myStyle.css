@@ -87,7 +87,7 @@
 				color: navy;
 				text-align: center;
 			}
-			li{
+			ul, ol{
 				font-size: 1.4em;
 			}
 		
