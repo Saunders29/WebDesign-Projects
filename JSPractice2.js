@@ -57,23 +57,7 @@ document.addEventListener( "mouseout", mouseOut, false );
 // Event listener for table and picture on JS practice
 /*****************************************************************/
 
-theButton = document.getElementById("theButton");
-otherItem = document.getElementById("buttonTest");
 
-theButton.addEventListener("click", onButtonClick);
-
-    function onButtonClick() {  
-        otherItem.style.color = "red";  
-    }
-		
-textentry = document.getElementById("myInput");  
-textentry.addEventListener("change", onChange);
-    function onChange() {  
-        newtext = myInput.value;  
-        otherItem.innerHTML = newtext;  
-    }
-//				Button and user text on assignment 3	
-/**************************************************************** */
 ThorPicDiv = document.getElementById("ThorPic");
 Thor = document.getElementById("Thor");
 
@@ -84,7 +68,7 @@ function expandImage(){
 	if (ThorPicDiv.style.position == ""){
 		ThorPicDiv.style.position = "fixed";
 		ThorPicDiv.style.top = "15%";
-		ThorPicDiv.style.left = "60%";
+		ThorPicDiv.style.left = "40%";
 		Thor.style.width = "675px";
 
 	}

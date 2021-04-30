@@ -88,9 +88,10 @@
 				width: fit-content;
 				
 			}
-			div.ThorPic {
+			div#ThorPic {
 				width: fit-content;
-				border: 3px dotted turquoise;
+				display: block;
+				padding: 2.5%;
 				
 			}
 			div.label{
