@@ -54,7 +54,8 @@ if (e.target.getAttribute("id")== "header"){
 }
 document.addEventListener( "mouseover", mouseOver, false );
 document.addEventListener( "mouseout", mouseOut, false );
-
+// Event listener for table and picture on JS practice
+/*****************************************************************/
 
 theButton = document.getElementById("theButton");
 otherItem = document.getElementById("buttonTest");
@@ -71,3 +72,24 @@ textentry.addEventListener("change", onChange);
         newtext = myInput.value;  
         otherItem.innerHTML = newtext;  
     }
+//				Button and user text on assignment 3	
+/**************************************************************** */
+ThorPicDiv= document.getElementById("Thor");
+
+ThorPicDiv.addEventListener("click", expandImage);
+
+function expandImage(){
+	if (ThorPicDiv.style.position == "absoulte"){
+		ThorPicDiv.style.position = "fixed";
+		ThorPicDiv.style.top = "25%";
+		ThorPicDiv.style.left = "60%";
+		ThorPicDiv.style.width = "auto";
+
+	}
+	else if (ThorPicDiv.style.position == "fixed"){
+		ThorPicDiv.style.position = "";
+		ThorPicDiv.style.width="225px";
+		ThorPicDiv.src =  "Thor.jfif";
+
+	}
+}
