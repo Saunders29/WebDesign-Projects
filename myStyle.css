@@ -114,20 +114,24 @@
 				font-family:monospace;
 				
 			}
-			@media (max-width: 900px){
-				body{
-					margin-left: 5%;
-					margin-right: 5%;
+	
+			@media (orientation:portrait) {
+				body {
+					margin-left: 2.5%;
+					margin-right: 2.5%;
 					font-size: 1em;
 				}
+				
+			}
+			@media (max-width: 800px){
+				
 				div.pictureBar{
 					float: none;
-					display: flexbox;
 					width: fit-content;
 					height: auto;
-					margin-left: auto;
-					margin-right:auto ;
 					border: 10px solid blue;
+					margin-left:2.5%;
+					margin-right:2.5%;
 				}
 				div.pictureBlock{
 					
@@ -137,10 +141,4 @@
 					margin-left: auto;
 					margin-right: auto;
 				}
-			}
-			@media (orientation:portrait) {
-				body {
-					flex-direction: row;
-				}
-				
 			}
