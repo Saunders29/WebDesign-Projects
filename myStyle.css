@@ -1,4 +1,13 @@
 	
+			
+			
+			body{
+				background: darkkhaki;
+				margin-left: 10%;
+				margin-right:10%;
+				font-family:'Times New Roman', Times, serif;
+				font-size: 1.3em;
+				}
 			table, th, td {
 				border: 2px solid Black;
 				text-align: center;
@@ -21,12 +30,7 @@
 				font-size: 20px;
 				
 			}
-			body{
-				background: darkkhaki;
-				margin-left: 10%;
-				margin-right:10%;
-				font-family:'Times New Roman', Times, serif;
-			}
+		
 			header{
 				text-align: center;
 				font-size: 2em;
@@ -88,9 +92,7 @@
 				color: navy;
 				text-align: center;
 			}
-			ul, ol{
-				font-size: 1.4em;
-			}
+		
 		
 			td#content1 {
 				font-family: impact;
@@ -106,6 +108,7 @@
 				body{
 					margin-left: 5%;
 					margin-right: 5%;
+					font-size: 1.4em;
 				}
 				div.pictureBar{
 					float: none;
