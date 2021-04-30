@@ -102,6 +102,10 @@
 				margin-left: auto;
 				margin-right: auto;
 			}
+			img#baseball, img#basketball, img#football{
+				width: 205px;
+				height: 167px;
+			}
 		
 		
 			td#content1 {
@@ -117,8 +121,8 @@
 	
 			@media (orientation:portrait) {
 				body {
-					margin-left: 2.5%;
-					margin-right: 2.5%;
+					margin-left: 5%;
+					margin-right: 5%;
 					font-size: 1em;
 				}
 				
@@ -126,7 +130,7 @@
 			@media (max-width: 800px){
 				
 				div.pictureBar{
-					float: none;
+					
 					width: fit-content;
 					height: auto;
 					border: 10px solid blue;
@@ -134,11 +138,21 @@
 					margin-right:2.5%;
 				}
 				div.pictureBlock{
-					
+					font-size: 1em;
+					color: white;
 					height: auto;
 					width:  auto;
 					background-color: rgb(46, 58, 80);
 					margin-left: auto;
 					margin-right: auto;
+				}
+				body {
+					margin-left: 5%;
+					margin-right: 5%;
+					font-size: 1em;
+				}
+				img#baseball, img#basketball, img#football{
+					width: 154px;
+					height: 126px;
 				}
 			}
