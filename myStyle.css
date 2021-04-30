@@ -8,12 +8,20 @@
 				font-family:'Times New Roman', Times, serif;
 				font-size: 1.3em;
 				}
-			table, th, td {
+			table, th, td,tr {
 				border: 2px solid Black;
 				text-align: center;
-				margin: .5em;
-				width: 50%;
+				margin-top: 2.5%;
+				margin-bottom: 2.5%;
+				width: fit-content;
 				font-size: 1.2em;
+				align-items: center;
+				margin-left: auto;
+				margin-right: auto;
+				
+			}
+			td{
+				padding: .3em;
 			}
 			a  {
 				border: solid cyan;
@@ -91,6 +99,8 @@
 				font-size: 2em;
 				color: navy;
 				text-align: center;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		
 		
@@ -108,7 +118,7 @@
 				body{
 					margin-left: 5%;
 					margin-right: 5%;
-					font-size: 1.4em;
+					font-size: 1em;
 				}
 				div.pictureBar{
 					float: none;
