@@ -32,24 +32,24 @@ function mouseOver( e )
 function mouseOut( e )
 {
    
-   if ( e.target.getAttribute( "id" ) == "football" )
-   {
+   	if ( e.target.getAttribute( "id" ) == "football" )
+   	{
       e.target.setAttribute( "src", image2.getAttribute( "src" ) );
-   } 
-if (e.target.getAttribute("id")== "header"){
-	document.getElementById("header").style.backgroundColor="white";
-	document.getElementById("header").style.color="black";
-	document.getElementById("header").style.fontFamily="Times";
+   	} 
+	if (e.target.getAttribute("id")== "header"){
+		document.getElementById("header").style.backgroundColor="white";
+		document.getElementById("header").style.color="black";
+		document.getElementById("header").style.fontFamily="Times";
 	}
-	 if (e.target.getAttribute("id")== "content1"){
-	document.getElementById("content1").style.backgroundColor="white";
-	document.getElementById("content1").style.fontFamily="impact";
-	document.getElementById("content1").style.color="black";
+	if (e.target.getAttribute("id")== "content1"){
+		document.getElementById("content1").style.backgroundColor="white";
+		document.getElementById("content1").style.fontFamily="impact";
+		document.getElementById("content1").style.color="black";
 	}
-	 if (e.target.getAttribute("id")== "content2"){
-	document.getElementById("content2").style.backgroundColor="white";
-	document.getElementById("content2").style.fontFamily="broadway";
-	document.getElementById("content2").style.color="black";
+	if (e.target.getAttribute("id")== "content2"){
+		document.getElementById("content2").style.backgroundColor="white";
+		document.getElementById("content2").style.fontFamily="broadway";
+		document.getElementById("content2").style.color="black";
 	}   
 }
 document.addEventListener( "mouseover", mouseOver, false );
@@ -74,21 +74,23 @@ textentry.addEventListener("change", onChange);
     }
 //				Button and user text on assignment 3	
 /**************************************************************** */
-ThorPicDiv= document.getElementById("Thor");
+ThorPicDiv = document.getElementById("ThorPic");
+Thor = document.getElementById("Thor");
 
 ThorPicDiv.addEventListener("click", expandImage);
 
+
 function expandImage(){
-	if (ThorPicDiv.style.position == "absoulte"){
+	if (ThorPicDiv.style.position == ""){
 		ThorPicDiv.style.position = "fixed";
-		ThorPicDiv.style.top = "25%";
+		ThorPicDiv.style.top = "15%";
 		ThorPicDiv.style.left = "60%";
-		ThorPicDiv.style.width = "auto";
+		Thor.style.width = "675px";
 
 	}
 	else if (ThorPicDiv.style.position == "fixed"){
 		ThorPicDiv.style.position = "";
-		ThorPicDiv.style.width="225px";
+		Thor.style.width="225px";
 		ThorPicDiv.src =  "Thor.jfif";
 
 	}
