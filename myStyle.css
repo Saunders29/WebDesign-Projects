@@ -114,7 +114,7 @@
 				font-family:monospace;
 				
 			}
-			@media (max-width: 800px){
+			@media (max-width: 900px){
 				body{
 					margin-left: 5%;
 					margin-right: 5%;
@@ -125,6 +125,7 @@
 					display: flexbox;
 					width: fit-content;
 					height: auto;
+					margin-left: auto;
 					margin-right:auto ;
 					border: 10px solid blue;
 				}
@@ -136,4 +137,10 @@
 					margin-left: auto;
 					margin-right: auto;
 				}
+			}
+			@media (orientation:portrait) {
+				body {
+					flex-direction: row;
+				}
+				
 			}
